@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbeam Infotech</title>
+    <style>
+        th{
+         text-align: left;   
+        }
+    </style>
+
+</head>
+<body>
+    <style>
+        /*p{
+            justify-content: center;
+            display: flex;
+            color: black;
+        }*/
+    </style>
+    <img src="SunbeamLogo.png" alt="Sunbeam image" style="width: 50%;height: 50%; margin-left:300px;justify-content: center;"/>
+    <br>
+    <h1 style="margin-left: 33%;">Sunbeam registration form</h1>
+
+    <div style="display: flex;">
+        <div style="flex: 1; padding: 20px;height: auto;">
+               <iframe width="560" height="315" src="C:\Users\user\Downloads\videoplayback.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-left: 50px; padding-top: 30px;"></iframe>
+                
+        </div>
+
+        <div style="flex: 1; padding: 20px;margin-left: 5%;">
+            <table>
+                <tr>
+                    <th style="text-align: left;">Name : </th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Birth date: </th>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <th>Email : </th>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <th>Password : </th>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <th>Address : </th>
+                    <td><textarea id="add" rows="5" cols="40" ></textarea></td>
+                </tr>
+                <tr>
+                    <th>Gender : </th>
+                    <td>
+                        <input type="radio" id="gender" name="type" value="Male">
+                        <label for="gender">Male</label>
+                        <input type="radio" id="gender" name="type" value="Female">
+                        <label for="gender">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="f1">Upload photo : </label></th>
+                    <td><input type="file" id="f1"></td>
+                </tr>
+                <tr>
+                    <th><label for="course">Select your Course : </label></th>
+                    <td>
+                        <select id="course">
+                            <option value="" disabled selected hidden>Select course</option>
+                            <option value="MERN">MERN</option>
+                            <option value="Data Science">Data Science</option>
+                            <option value="GenAI">GenAI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="skill set">Skill set : </label></th>
+                    <td>
+                        <input type="checkbox">Java</input>
+                        <input type="checkbox">CPP</input>
+                        <input type="checkbox">Python</input>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="button" value="Register" >
+                    <input type="button" value="Login"></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+   
+
+    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/r2jOZzFjyXQ?si=DSNJ_TtAusFJyLGy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+-->
+</body>
+</html>
